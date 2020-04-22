@@ -1,0 +1,35 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Survey based friend finder app",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvanhook13/FriendFinder.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "javascript",
+    "html",
+    "dating",
+    "fullstack",
+    "html"
+  ],
+  "author": "Jared VanHook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvanhook13/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/jvanhook13/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  }
+}
