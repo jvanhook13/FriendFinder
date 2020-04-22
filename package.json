@@ -2,10 +2,10 @@
   "name": "friendfinder",
   "version": "1.0.0",
   "description": "Survey based friend finder app",
-  "main": "server.js",
+  "main": "friends.js",
   "scripts": {
-    "test": "start",
-    "start": "node server.js"
+    "test": "test",
+    "start": "YeetHaw"
   },
   "repository": {
     "type": "git",
