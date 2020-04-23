@@ -1,0 +1,22 @@
+<h1>Friend Finder</h1>
+
+
+<form id="name" class="button-size">
+<textarea type="text" name="username"></textarea>
+<button type="submit">Please Enter Your Name</button>
+</form>
+
+
+<ol>
+  {{#each question}}
+  <li>
+    <p>
+      {{this.id}}. {{this.realquestion}}
+    </p>
+    <form id="answer" class="button-size">
+  <textarea type="text" name="useranswer"></textarea>
+  <button type="submit">Answer!</button>
+    </form>
+  </li>
+  {{/each}}
+</ol>
