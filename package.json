@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/jvanhook13/FriendFinder#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^4.0.3",
     "http": "0.0.1-security",
     "jquery": "^3.5.0",
